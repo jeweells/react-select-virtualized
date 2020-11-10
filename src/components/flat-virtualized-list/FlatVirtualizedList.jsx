@@ -1,4 +1,6 @@
-import { List, InfiniteLoader, AutoSizer } from 'react-virtualized';
+import { InfiniteLoader } from 'react-virtualized/dist/commonjs/InfiniteLoader';
+import { AutoSizer } from 'react-virtualized/dist/commonjs/AutoSizer';
+import { List } from 'react-virtualized/dist/commonjs/List';
 import React, { useEffect, memo, useMemo, useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import { getListHeight, getScrollIndex, getNextRowIndex } from '@rsv-lib/getters';
